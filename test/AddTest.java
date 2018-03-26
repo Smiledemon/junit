@@ -32,7 +32,7 @@ public class AddTest {
         return Arrays.asList(new Object[][]{
                 {1,1,2},
                 {2,3,5},
-                {2,6,9},
+                {2,6,8},
                 {2,6,8}
         });
     }
