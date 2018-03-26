@@ -10,5 +10,5 @@ import org.junit.runner.RunWith;
  * Time: 上午10:30
  */
 @RunWith(org.junit.runners.Suite.class)
-@org.junit.runners.Suite.SuiteClasses({CarTest.class,CarTestOne.class,AddTest.class})
+@org.junit.runners.Suite.SuiteClasses({CarTest.class,CarTestOne.class,AddTest.class,JUnitHelloWorld.class})
 public class Suite {}
