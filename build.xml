@@ -28,7 +28,7 @@
         </target>
 
         <target name="compile" depends="compile init">
-            <javac srcdir="${src folder}" destdir="${output folder}" classpathref="classpath"/>
+            <javac srcdir="${src folder}" destdir="${output folder}" classpathref="classpath" includeAntRuntime="false"/>
             <echo>项目源文件编译 成功!</echo>
         </target>
 
