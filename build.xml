@@ -41,7 +41,7 @@
         </target>
 
         <target name="test auot junit and report" depends="all compile">
-            <junit printsummary="on" fork="true" showoutput="true">
+            <junit printsummary="on" fork="false" showoutput="true">
                 <classpath>
                     <fileset dir="${lib.dir}" includes="**/*.jar"/>
                     <pathelement path="${output folder}"/>
