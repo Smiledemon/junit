@@ -32,7 +32,7 @@ public class AddTest {
     @Parameterized.Parameters(name = "{index}:add({0}+{1})={2}")
     public static Iterable<Object[]> data(){
         return Arrays.asList(new Object[][]{
-                {1,1,3},
+                {1,1,2},
                 {2,3,5},
                 {2,6,8},
                 {2,6,8}
