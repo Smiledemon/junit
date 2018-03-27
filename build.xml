@@ -18,6 +18,7 @@
         </target>
 
         <target name="compile init">
+            <delete dir="classes"/>
             <mkdir dir="${output folder}"/>
             <echo>创建编译文件夹 成功!</echo>
         </target>
@@ -28,7 +29,7 @@
         </target>
 
         <target name="compile" depends="compile init">
-            <javac srcdir="${src folder}" destdir="${output folder}" classpathref="classpath" includeAntRuntime="false"/>
+            <javac srcdir="${src folder}" destdir="${output folder}" classpathref="classpath" />
             <echo>项目源文件编译 成功!</echo>
         </target>
 
@@ -41,7 +42,7 @@
         </target>
 
         <target name="test auot junit and report" depends="all compile">
-            <junit printsummary="on" fork="false" showoutput="true">
+            <junit printsummary="on" fork="true" showoutput="true">
                 <classpath>
                     <fileset dir="${lib.dir}" includes="**/*.jar"/>
                     <pathelement path="${output folder}"/>
@@ -49,7 +50,7 @@
                 <formatter type="xml"/>
                 <batchtest todir="${report folder}">
                     <fileset dir="${output folder}">
-                        <include name="**/Test*.*"/>
+                        <include name="**/*Test*.*"/>
                     </fileset>
                 </batchtest>
             </junit>

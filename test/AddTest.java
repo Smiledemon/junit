@@ -41,5 +41,6 @@ public class AddTest {
     public void add() {
         Add test =new Add();
         assertEquals(numberC,test.add(numberA,numberB));
+        System.out.println("hello");
     }
 }
