@@ -11,6 +11,7 @@
         <property name="src folder" value="src"/>
         <property name="test folder" value="test"/>
         <property name="report folder" value="report"/>
+        <property name="jar folder" value="dist"/>
 
         <target name="clean">
             <delete dir="report"/>
@@ -20,6 +21,7 @@
         <target name="compile init">
             <delete dir="classes"/>
             <mkdir dir="${output folder}"/>
+            <mkdir dir="${jar folder}"/>
             <echo>创建编译文件夹 成功!</echo>
         </target>
 
@@ -60,7 +62,18 @@
                 </fileset>
                 <report format="frames" todir="${report folder}"/>
             </junitreport>
-            <echo>批量测试，并生成html完成，详细可查看${report folder}/index.html！</echo>
         </target>
+
+    <target name="coverage" depends="test auot junit and report">
+
+    </target>
+
+    <target name="make-jar" depends="all compile" description="make jar file">
+        <jar jarfile="${jar folder}/junit.jar">
+            <fileset dir="${output folder}">
+                <exclude name="**/*Test*.Class"/>
+            </fileset>
+        </jar>
+    </target>
 
     </project>
