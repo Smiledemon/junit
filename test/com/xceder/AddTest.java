@@ -1,3 +1,5 @@
+package com.xceder;
+
 import com.xceder.Add;
 import org.junit.Test;
 import org.junit.runner.RunWith;

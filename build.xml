@@ -15,18 +15,19 @@
 
         <target name="clean">
             <delete dir="report"/>
+            <delete dir="dist"/>
             <echo>清除测试报告文件 成功!</echo>
         </target>
 
         <target name="compile init">
             <delete dir="classes"/>
             <mkdir dir="${output folder}"/>
-            <mkdir dir="${jar folder}"/>
             <echo>创建编译文件夹 成功!</echo>
         </target>
 
-        <target name="report init" depends="clean">
-            <mkdir dir="${report folder}"/>
+    <target name="report init" depends="clean">
+        <mkdir dir="${jar folder}"/>
+        <mkdir dir="${report folder}"/>
             <echo>创建测试报告文件夹 成功!</echo>
         </target>
 
@@ -63,17 +64,15 @@
                 <report format="frames" todir="${report folder}"/>
             </junitreport>
         </target>
-
-    <target name="coverage" depends="test auot junit and report">
-
-    </target>
-
-    <target name="make-jar" depends="all compile" description="make jar file">
+    <target name="jar" depends="test auot junit and report" description="make jar file">
         <jar jarfile="${jar folder}/junit.jar">
             <fileset dir="${output folder}">
-                <exclude name="**/*Test*.Class"/>
+                <include name="**/*.*"/>
+                <exclude name="**/*Test*.*"/>
             </fileset>
         </jar>
     </target>
-
+    <target name="end" depends="jar">
+        <echo>End！</echo>
+    </target>
     </project>
