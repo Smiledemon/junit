@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf01504-8dd6-46ee-ba08-501a0ac5fe81" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/checkout.sh" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test/com/xceder/AddTest.java" afterPath="$PROJECT_DIR$/test/com/xceder/AddTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/xceder/AddTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -32,6 +32,16 @@
               <folding>
                 <element signature="docComment;class#AddTest#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkout.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/checkout.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,6 +116,7 @@
         <option value="$PROJECT_DIR$/test/CarTest.java" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/test/com/xceder/AddTest.java" />
+        <option value="$PROJECT_DIR$/checkout.sh" />
       </list>
     </option>
   </component>
@@ -123,8 +134,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="314" />
-    <option name="y" value="173" />
+    <option name="x" value="453" />
+    <option name="y" value="78" />
     <option name="width" value="1762" />
     <option name="height" value="1350" />
   </component>
@@ -305,17 +316,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xceder" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="junit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="xceder" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -366,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAll">
+  <component name="RunManager" selected="Bash.checkout.sh">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -386,6 +386,16 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="checkout.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkout.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="junit" />
       <envs />
     </configuration>
     <configuration name="All in junit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -415,31 +425,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xceder" />
       <option name="MAIN_CLASS_NAME" value="com.xceder.CarTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PersonTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.xceder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="junit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xceder" />
-      <option name="MAIN_CLASS_NAME" value="com.xceder.PersonTwo" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -558,15 +543,15 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in junit" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CarTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.TestAllTwo" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PersonTwo" />
+      <item index="4" class="java.lang.String" itemvalue="Bash.checkout.sh" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestAll" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CarTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestAllTwo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in junit" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PersonTwo" />
+        <item index="0" class="java.lang.String" itemvalue="Bash.checkout.sh" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestAll" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CarTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestAllTwo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in junit" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +570,7 @@
       <updated>1522031018232</updated>
       <workItem from="1522031020184" duration="14993000" />
       <workItem from="1522114414644" duration="3198000" />
-      <workItem from="1522119225619" duration="7910000" />
+      <workItem from="1522119225619" duration="11448000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1522033256212</created>
@@ -720,7 +705,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522139279731</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test">
+      <created>1522139587339</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1522139587339</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,7 +748,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26101000" />
+    <option name="totallyTimeSpent" value="29639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,7 +760,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="173" width="1762" height="1350" extended-state="0" />
+    <frame x="453" y="78" width="1762" height="1350" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828686" sideWeight="0.4976744" order="6" side_tool="false" content_ui="tabs" />
@@ -779,8 +771,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828686" sideWeight="0.5023256" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23187251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23187251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828686" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2005814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1042,6 +1034,22 @@
           <folding>
             <element signature="docComment;class#AddTest#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/n">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
