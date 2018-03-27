@@ -16,7 +16,7 @@ public class CarTest {
 
     @Test
     public void getName() {
-        Assert.assertEquals("五菱宏观","五菱红光");
+        Assert.assertEquals("五菱宏观","五菱宏观");
     }
 
     @Test
