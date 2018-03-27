@@ -7,7 +7,6 @@
             <fileset dir="${lib.dir}" includes="**/*.jar"/>
         </path>
 
-    <property name="build.output.log.datetime" value="[${build.latest.date} ${build.latest.time}] "/>
     <property name="output folder" value="classes"/>
         <property name="src folder" value="src"/>
         <property name="test folder" value="test"/>
@@ -61,7 +60,7 @@
                 </fileset>
                 <report format="frames" todir="${report folder}"/>
             </junitreport>
-            <echo>${build.output.log.datetime}批量测试，并生成html完成，详细可查看${report folder}/index.html！</echo>
+            <echo>批量测试，并生成html完成，详细可查看${report folder}/index.html！</echo>
         </target>
 
     </project>
