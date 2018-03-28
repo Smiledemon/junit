@@ -7,15 +7,13 @@
             <fileset dir="${lib.dir}" includes="**/*.jar"/>
         </path>
 
-    <property name="output folder" value="classes"/>
+        <property name="output folder" value="classes"/>
         <property name="src folder" value="src"/>
         <property name="test folder" value="test"/>
         <property name="report folder" value="report"/>
-        <property name="jar folder" value="dist"/>
 
         <target name="clean">
             <delete dir="report"/>
-            <delete dir="dist"/>
             <echo>清除测试报告文件 成功!</echo>
         </target>
 
@@ -26,7 +24,6 @@
         </target>
 
     <target name="report init" depends="clean">
-        <mkdir dir="${jar folder}"/>
         <mkdir dir="${report folder}"/>
             <echo>创建测试报告文件夹 成功!</echo>
         </target>
@@ -64,15 +61,4 @@
                 <report format="frames" todir="${report folder}"/>
             </junitreport>
         </target>
-    <target name="jar" depends="test auot junit and report" description="make jar file">
-        <jar jarfile="${jar folder}/junit.jar">
-            <fileset dir="${output folder}">
-                <include name="**/*.*"/>
-                <exclude name="**/*Test*.*"/>
-            </fileset>
-        </jar>
-    </target>
-    <target name="end" depends="jar">
-        <echo>End！</echo>
-    </target>
     </project>
