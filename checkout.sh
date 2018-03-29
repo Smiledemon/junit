@@ -5,9 +5,9 @@ name1="<testsuite errors=\"0\" failures"
 result1=`grep -c "${name1}" report/TESTS-TestSuites.xml`
 if [ "${result}" -eq "${result1}" ]
 then
-    git reset --hard
-    git push
     exit 0
  else
+    git reset --hard
+    git push
     exit 1
  fi
