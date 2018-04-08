@@ -19,5 +19,6 @@ public class PersonTwo {
     public void getAge() {
         assertEquals(24,person.getAge());
         Assert.assertTrue(true);
+        System.out.println("hello");
     }
 }
