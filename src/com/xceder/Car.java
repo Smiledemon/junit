@@ -45,4 +45,14 @@ public class Car {
     public void setPrice(double price) {
         this.price = price;
     }
-}
+}/*
+../../tools/node_modules/karma/bin/karma start /var/lib/jenkins/tools/karma.conf.js
+
+        #rm -rf Mozilla
+
+        #rm -rf coverage
+        pwd
+
+        cp -r /var/lib/jenkins/tools/Mozilla .
+
+        cp -r /var/lib/jenkins/tools/coverage .*/

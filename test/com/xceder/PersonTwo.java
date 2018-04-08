@@ -1,5 +1,6 @@
 package com.xceder;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -17,5 +18,6 @@ public class PersonTwo {
     @Test
     public void getAge() {
         assertEquals(24,person.getAge());
+        Assert.assertTrue(true);
     }
 }
