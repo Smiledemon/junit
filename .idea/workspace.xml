@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf01504-8dd6-46ee-ba08-501a0ac5fe81" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/CreateBuild.sh" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/xceder/Car.java" afterPath="$PROJECT_DIR$/src/com/xceder/Car.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/xceder/AddTest.java" afterPath="$PROJECT_DIR$/test/com/xceder/AddTest.java" />
       <change beforePath="$PROJECT_DIR$/test/com/xceder/PersonTwo.java" afterPath="$PROJECT_DIR$/test/com/xceder/PersonTwo.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/test/com/xceder/PersonTwo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -594,7 +591,7 @@
       <workItem from="1522200215985" duration="6079000" />
       <workItem from="1522287006510" duration="9055000" />
       <workItem from="1522812980694" duration="36000" />
-      <workItem from="1523174722906" duration="52000" />
+      <workItem from="1523174722906" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1522033256212</created>
@@ -841,7 +838,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522289232216</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="test">
+      <created>1523174781142</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1523174781142</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -877,7 +881,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45980000" />
+    <option name="totallyTimeSpent" value="46146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1315,7 +1319,7 @@
     <entry file="file://$PROJECT_DIR$/test/com/xceder/PersonTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>

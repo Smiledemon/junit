@@ -18,6 +18,6 @@ public class PersonTwo {
     @Test
     public void getAge() {
         assertEquals(24,person.getAge());
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 }
