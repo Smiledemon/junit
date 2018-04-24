@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 rm -r target
-#创建classes生成路径
+#创建classes生成路径,以及test文件
 mkdir -p target/classes
 mkdir -p target/test
 #编译Java源文件
