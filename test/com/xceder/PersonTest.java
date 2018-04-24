@@ -17,6 +17,7 @@ public class PersonTest {
     @Test
     public void getName() {
         assertEquals("Jack","Jack");
+        assertEquals("Jack","Jack");
     }
 
     @Test
