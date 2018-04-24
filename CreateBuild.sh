@@ -8,7 +8,7 @@ if [ x$INPUT != x ]; then
 fi
 echo 您的文件名为:$fileName
 touch $fileName
-
+# ""
 echo "请输入您的工程依赖的jar包存放目录:"
 lib_floder=lib
 echo 默认存放目录为: ${lib_floder}（Press Enter key to accept default value）
